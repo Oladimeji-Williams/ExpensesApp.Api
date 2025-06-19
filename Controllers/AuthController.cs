@@ -38,27 +38,39 @@ namespace ExpensesApp.API.Controllers
             var token = GenerateJwtToken(user);
             return Ok(new { Token = token });
         }
+
         [HttpPost("Register")]
         public IActionResult Register([FromBody] RegisterUserDto registerUserDto)
         {
-            if (appDbContext.Users.Any(n => n.Email == registerUserDto.Email))
+            try
             {
-                return BadRequest("This email address is already taken");
+                if (!ModelState.IsValid || string.IsNullOrWhiteSpace(registerUserDto.Email) || string.IsNullOrWhiteSpace(registerUserDto.Password))
+                    return BadRequest("Invalid registration data");
+
+                if (appDbContext.Users.Any(n => n.Email == registerUserDto.Email))
+                    return BadRequest("This email address is already taken");
+
+                var newUser = new User
+                {
+                    Email = registerUserDto.Email,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
+                };
+
+                newUser.Password = passwordHasher.HashPassword(newUser, registerUserDto.Password);
+
+                appDbContext.Users.Add(newUser);
+                appDbContext.SaveChanges();
+
+                var token = GenerateJwtToken(newUser);
+                return Ok(new { Token = token });
             }
-
-            var newUser = new User()
+            catch (Exception ex)
             {
-                Email = registerUserDto.Email,
-                CreatedAt = DateTime.UtcNow,
-                UpdatedAt = DateTime.UtcNow
-            };
-            newUser.Password = passwordHasher.HashPassword(newUser, registerUserDto.Password);
-            appDbContext.Users.Add(newUser);
-            appDbContext.SaveChanges();
-
-            var token = GenerateJwtToken(newUser);
-            return Ok(new { Token = token });
+                return StatusCode(500, $"Internal error: {ex.Message}");
+            }
         }
+
         private string GenerateJwtToken(User user)
         {
             var claims = new[]
