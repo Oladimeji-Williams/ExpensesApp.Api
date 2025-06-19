@@ -338,3 +338,4 @@ C:\Users\HP\Desktop\ExpensesApp.API\obj\Debug\net9.0\refint\ExpensesApp.API.dll
 C:\Users\HP\Desktop\ExpensesApp.API\obj\Debug\net9.0\ExpensesApp.API.pdb
 C:\Users\HP\Desktop\ExpensesApp.API\obj\Debug\net9.0\ExpensesApp.API.genruntimeconfig.cache
 C:\Users\HP\Desktop\ExpensesApp.API\obj\Debug\net9.0\ref\ExpensesApp.API.dll
+C:\Users\HP\Desktop\ExpensesApp.API\bin\Debug\net9.0\ExpensesApp.API.staticwebassets.runtime.json

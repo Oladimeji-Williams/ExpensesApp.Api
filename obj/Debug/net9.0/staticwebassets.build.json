@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "uDcva+8D/E+GqF3y3l5KPU/4woyh3O/uDGi45KpvNww=",
+  "Hash": "0VzGAMLTO28EpAfDC1X5hTq9iVQ+vElBDrP7REJFHHE=",
   "Source": "ExpensesApp.API",
   "BasePath": "_content/ExpensesApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ExpensesApp.API\\wwwroot",
+      "Source": "ExpensesApp.API",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\",
+      "BasePath": "_content/ExpensesApp.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg",
+      "SourceId": "ExpensesApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\",
+      "BasePath": "_content/ExpensesApp.API",
+      "RelativePath": "uploads/profiles/1aaebaab-d44e-4a1a-bddd-d075907be023#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5q6zawiuf",
+      "Integrity": "4rSM4XMGa19FQd/6JctvdF2AV9KDequNVt22lNBm2ZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg",
+      "SourceId": "ExpensesApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\",
+      "BasePath": "_content/ExpensesApp.API",
+      "RelativePath": "uploads/profiles/86d25a2f-a665-4dcf-b6e4-0d31075408de#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cbn2eqwj5a",
+      "Integrity": "iBi7T+fY7sgVciCU4FyPH/Gxnn2/IBEg69lS8T/mwm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/profiles/1aaebaab-d44e-4a1a-bddd-d075907be023.e5q6zawiuf.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rSM4XMGa19FQd/6JctvdF2AV9KDequNVt22lNBm2ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:25:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5q6zawiuf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/profiles/1aaebaab-d44e-4a1a-bddd-d075907be023.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rSM4XMGa19FQd/6JctvdF2AV9KDequNVt22lNBm2ZI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profiles/1aaebaab-d44e-4a1a-bddd-d075907be023.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rSM4XMGa19FQd/6JctvdF2AV9KDequNVt22lNBm2ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:25:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rSM4XMGa19FQd/6JctvdF2AV9KDequNVt22lNBm2ZI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profiles/86d25a2f-a665-4dcf-b6e4-0d31075408de.cbn2eqwj5a.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iBi7T+fY7sgVciCU4FyPH/Gxnn2/IBEg69lS8T/mwm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cbn2eqwj5a"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/profiles/86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBi7T+fY7sgVciCU4FyPH/Gxnn2/IBEg69lS8T/mwm8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/profiles/86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iBi7T+fY7sgVciCU4FyPH/Gxnn2/IBEg69lS8T/mwm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBi7T+fY7sgVciCU4FyPH/Gxnn2/IBEg69lS8T/mwm8="
+        }
+      ]
+    }
+  ]
 }

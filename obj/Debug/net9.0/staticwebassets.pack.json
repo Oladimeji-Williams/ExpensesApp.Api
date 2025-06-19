@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profiles\\1aaebaab-d44e-4a1a-bddd-d075907be023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ExpensesApp.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ExpensesApp.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ExpensesApp.API.props",
+      "PackagePath": "build\\ExpensesApp.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ExpensesApp.API.props",
+      "PackagePath": "buildMultiTargeting\\ExpensesApp.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ExpensesApp.API.props",
+      "PackagePath": "buildTransitive\\ExpensesApp.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
