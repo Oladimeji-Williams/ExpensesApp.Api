@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\uploads\\profiles\\86d25a2f-a665-4dcf-b6e4-0d31075408de.jpg"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\ExpensesApp.API\\wwwroot\\uploads\\profiles\\8bb75f09-da76-402c-85c8-786d1fb88b93.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profiles\\8bb75f09-da76-402c-85c8-786d1fb88b93.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ExpensesApp.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -15,7 +15,7 @@ namespace ExpensesApp.API.Models
         /// <summary>
         /// The user's hashed password.
         /// </summary>
-        public string Password { get; set; } = string.Empty;
+        public string PasswordHash { get; set; } = string.Empty;
 
         /// <summary>
         /// The user's first name.

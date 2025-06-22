@@ -13,12 +13,16 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
         policy
-            .WithOrigins("https://happy-smoke-0b506f81e.6.azurestaticapps.net")
+            .WithOrigins(
+                "http://localhost:4200", // Angular local dev
+                "https://happy-smoke-0b506f81e.6.azurestaticapps.net" // Production frontend
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
