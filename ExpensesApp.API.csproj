@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="microsoft.aspnetcore.authentication.jwtbearer" Version="9.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
-    <PackageReference Include="microsoft.entityframeworkcore" Version="9.0.6" />
+    <PackageReference Include="microsoft.entityframeworkcore" Version="9.0.7" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="9.0.6" />
     <PackageReference Include="microsoft.entityframeworkcore.tools" Version="9.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
